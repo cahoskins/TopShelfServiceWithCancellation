@@ -1,0 +1,1 @@
+.\src\TopShelfServiceWithCancellation\bin\Debug\netcoreapp2.1\win81-x64\publish\TopShelfServiceWithCancellation.exe install -servicename:TopShelfService
