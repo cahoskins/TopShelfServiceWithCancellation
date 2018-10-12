@@ -3,25 +3,25 @@ A POC of a .net core console app, hosted as a Windows service with TopShelf.  Ca
 
 Output when the service is stopped while it is in the middle of working:
 > Begin
-Friday, October 12, 2018 1:02:39 PM
-10/12/2018 1:02:39 PM processing 0 of 5
-10/12/2018 1:02:39 PM processing 1 of 5
-10/12/2018 1:02:40 PM processing 2 of 5
-10/12/2018 1:02:40 PM processing 3 of 5
-10/12/2018 1:02:41 PM Cancellation is requested...
-10/12/2018 1:02:41 PM cleaning up
-10/12/2018 1:02:43 PM done cleaning up
+> Friday, October 12, 2018 1:02:39 PM
+> 10/12/2018 1:02:39 PM processing 0 of 5
+> 10/12/2018 1:02:39 PM processing 1 of 5
+> 10/12/2018 1:02:40 PM processing 2 of 5
+> 10/12/2018 1:02:40 PM processing 3 of 5
+> 10/12/2018 1:02:41 PM Cancellation is requested...
+> 10/12/2018 1:02:41 PM cleaning up
+> 10/12/2018 1:02:43 PM done cleaning up
 
 Output when the service is stopped when it is not currently working:
 
 > Begin
-Friday, October 12, 2018 1:04:43 PM
-10/12/2018 1:04:43 PM processing 0 of 5
-10/12/2018 1:04:43 PM processing 1 of 5
-10/12/2018 1:04:44 PM processing 2 of 5
-10/12/2018 1:04:44 PM processing 3 of 5
-10/12/2018 1:04:45 PM processing 4 of 5
-10/12/2018 1:04:45 PM End
+> Friday, October 12, 2018 1:04:43 PM
+> 10/12/2018 1:04:43 PM processing 0 of 5
+> 10/12/2018 1:04:43 PM processing 1 of 5
+> 10/12/2018 1:04:44 PM processing 2 of 5
+> 10/12/2018 1:04:44 PM processing 3 of 5
+> 10/12/2018 1:04:45 PM processing 4 of 5
+> 10/12/2018 1:04:45 PM End
 
 
 To compile as an EXE:
